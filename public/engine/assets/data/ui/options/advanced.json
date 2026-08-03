@@ -1,0 +1,304 @@
+[
+  {
+    "global": {
+      "icon": "settings"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "DEVELOPER TOOLS",
+      "es": "HERRAMIENTAS DE DESARROLLADOR",
+      "pt": "FERRAMENTAS DE DESENVOLVEDOR"
+    },
+    "platform": ["desktop", "web"]
+  },
+  {
+    "type": "option",
+    "id": "opt-dev-mode",
+    "platform": ["desktop", "web"],
+    "label": {
+      "en": "Developer Mode",
+      "es": "Modo Desarrollador",
+      "pt": "Modo Desenvolvedor"
+    },
+    "options": {
+      "input": "check",
+      "values": [false]
+    },
+    "description": {
+      "en": "Enable developer mode features",
+      "es": "Habilita características del modo de desarrollador",
+      "pt": "Ativa recursos do modo de desenvolvedor"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-show-console",
+    "platform": ["desktop"],
+    "label": {
+      "en": "Show Console",
+      "es": "Mostrar Consola",
+      "pt": "Mostrar Console"
+    },
+    "options": {
+      "input": "check",
+      "values": [false]
+    },
+    "description": {
+      "en": "Display the debug console",
+      "es": "Muestra la consola de depuración",
+      "pt": "Exibe o console de depuração"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-auto-reload",
+    "platform": ["desktop"],
+    "label": {
+      "en": "Auto-Reload Assets",
+      "es": "Recargar Automaticamente Activos",
+      "pt": "Recarregar Ativos Automaticamente"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Automatically reload asset files on changes",
+      "es": "Recarga automáticamente los archivos de activos en cambios",
+      "pt": "Recarrega automaticamente os arquivos de ativos em mudanças"
+    }
+  },
+  {
+    "type": "option",
+    "id": "btn-clear-cache",
+    "platform": ["all"],
+    "label": {
+      "en": "Clear Asset Cache",
+      "es": "Limpiar Cache de Activos",
+      "pt": "Limpar Cache de Ativos"
+    },
+    "options": {
+      "input": "action",
+      "values": []
+    },
+    "description": {
+      "en": "Clear all cached assets",
+      "es": "Limpia todos los activos en caché",
+      "pt": "Limpa todos os ativos em cache"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "NETWORK",
+      "es": "RED",
+      "pt": "REDE"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "opt-jitter",
+    "platform": ["all"],
+    "label": {
+      "en": "Net Jitter Buffer",
+      "es": "Buffer de Jitter de Red",
+      "pt": "Buffer de Jitter de Rede"
+    },
+    "options": {
+      "input": "drop",
+      "values": [
+        {
+          "id": "medium",
+          "label": {
+            "en": "Medium",
+            "es": "Medio",
+            "pt": "Médio"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Network jitter buffer size",
+      "es": "Tamaño del buffer de jitter de red",
+      "pt": "Tamanho do buffer de jitter de rede"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-show-ping",
+    "platform": ["all"],
+    "label": {
+      "en": "Show Ping",
+      "es": "Mostrar Ping",
+      "pt": "Mostrar Ping"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Display network ping indicator",
+      "es": "Muestra el indicador de ping de red",
+      "pt": "Exibe o indicador de ping de rede"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "GRAPHICS",
+      "es": "GRAFICOS",
+      "pt": "GRÁFICOS"
+    },
+    "platform": ["desktop", "web"]
+  },
+  {
+    "type": "option",
+    "id": "opt-res-scale",
+    "platform": ["desktop", "web"],
+    "label": {
+      "en": "Resolution Scale",
+      "es": "Escala de Resolucion"
+    },
+    "options": {
+      "input": "drop",
+      "values": [
+        {
+          "id": "1.0",
+          "label": {
+            "en": "100%",
+            "es": "100%"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Adjust the rendering resolution scale",
+      "es": "Ajusta la escala de resolución de renderizado"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-antialiasing",
+    "platform": ["desktop"],
+    "label": {
+      "en": "Antialiasing",
+      "es": "Antialiasing"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Enable antialiasing for smoother graphics",
+      "es": "Habilita antialiasing para gráficos más suave"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-low-quality",
+    "platform": ["all"],
+    "label": {
+      "en": "Low Quality Mode",
+      "es": "Modo de Baja Calidad"
+    },
+    "options": {
+      "input": "check",
+      "values": [false]
+    },
+    "description": {
+      "en": "Enable low quality mode for better performance",
+      "es": "Habilita modo de baja calidad para mejor rendimiento"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "SYSTEM",
+      "es": "SISTEMA",
+      "pt": "SISTEMA"
+    },
+    "platform": ["desktop", "web"]
+  },
+  {
+    "type": "option",
+    "id": "opt-fps-cap",
+    "platform": ["desktop", "web"],
+    "label": {
+      "en": "FPS Cap",
+      "es": "Limite de FPS"
+    },
+    "options": {
+      "input": "number",
+      "min": 30,
+      "max": 360,
+      "values": [60]
+    },
+    "description": {
+      "en": "Set maximum frames per second",
+      "es": "Establece máximo de fotogramas por segundo"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-gpu-caching",
+    "platform": ["desktop"],
+    "label": {
+      "en": "GPU Caching",
+      "es": "Cache de GPU"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Enable GPU resource caching",
+      "es": "Habilita almacenamiento en caché de recursos de GPU"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "PARTICLES & FX",
+      "es": "PARTICULAS Y EFECTOS",
+      "pt": "PARTÍCULAS E EFEITOS"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "opt-splashes",
+    "platform": ["all"],
+    "label": {
+      "en": "Note Splashes",
+      "es": "Salpicaduras de Notas"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Enable note splash effects",
+      "es": "Habilita efectos de salpicadura de notas"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-reduce-motion",
+    "platform": ["all"],
+    "label": {
+      "en": "Reduce Motion",
+      "es": "Reducir Movimiento"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Reduce animation effects",
+      "es": "Reduce efectos de animación"
+    }
+  }
+]

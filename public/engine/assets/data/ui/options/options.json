@@ -1,0 +1,38 @@
+[
+  {
+    "label": {
+      "es": "General",
+      "en": "General",
+      "pt": "Geral"
+    },
+    "icon": "world",
+    "id": "general"
+  },
+  {
+    "label": {
+      "es": "Jugabilidad",
+      "en": "Gameplay",
+      "pt": "Jogabilidade"
+    },
+    "icon": "arrows",
+    "id": "gameplay"
+  },
+  {
+    "label": {
+      "es": "Apariencia",
+      "en": "Appearance",
+      "pt": "Aparência"
+    },
+    "id": "appearance",
+    "icon": "eyes"
+  },
+  {
+    "label": {
+      "es": "Controles",
+      "en": "Controls",
+      "pt": "Controles"
+    },
+    "id": "controls",
+    "icon": "controller"
+  }
+]

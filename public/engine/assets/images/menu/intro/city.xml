@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="city.png" width="7392" height="5500">
+	<SubTexture name="City0000" x="0" y="0" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0001" x="0" y="1100" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0002" x="0" y="2200" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0003" x="0" y="3300" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0004" x="0" y="4400" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0005" x="1848" y="0" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0006" x="3696" y="0" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0007" x="5544" y="0" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0008" x="1848" y="1100" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0009" x="3696" y="1100" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0010" x="5544" y="1100" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0011" x="1848" y="2200" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0012" x="1848" y="3300" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0013" x="1848" y="4400" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0014" x="3696" y="2200" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0015" x="5544" y="2200" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0016" x="3696" y="3300" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0017" x="5544" y="3300" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+	<SubTexture name="City0018" x="3696" y="4400" width="1848" height="1100" frameX="-0" frameY="-0" frameWidth="1850" frameHeight="1102"/>
+</TextureAtlas>

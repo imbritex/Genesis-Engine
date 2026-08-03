@@ -1,0 +1,164 @@
+[
+  {
+    "type": "header",
+    "label": {
+      "en": "VISUAL STYLE",
+      "es": "ESTILO VISUAL",
+      "pt": "ESTILO VISUAL"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "genesis_note_splashes",
+    "platform": ["all"],
+    "label": {
+      "en": "Note Splashes",
+      "es": "Salpicaduras de Notas",
+      "pt": "Respingos de Notas"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Enable note splashes when hitting a note perfectly",
+      "es": "Habilita las salpicaduras de notas al presionar una nota perfectamente",
+      "pt": "Ativa respingos de notas ao acertar uma nota perfeitamente"
+    }
+  },
+  {
+    "type": "option",
+    "id": "genesis_opponent_glow",
+    "platform": ["all"],
+    "label": {
+      "en": "Opponent Glow",
+      "es": "Brillo del Oponente",
+      "pt": "Brilho do Oponente"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Enable opponent glow effect, enables a glow effect on opponent arrows when pressed",
+      "es": "Habilita el efecto de brillo de las flechas del oponente al ser presionadas",
+      "pt": "Ativa o efeito de brilho nas flechas do oponente ao serem pressionadas"
+    }
+  },
+  {
+    "type": "option",
+    "id": "genesis_hide_op_strums",
+    "platform": ["all"],
+    "label": {
+      "en": "Hide Opponent Strums",
+      "es": "Ocultar Flechas del Oponente",
+      "pt": "Ocultar Flechas do Oponente"
+    },
+    "options": {
+      "input": "check",
+      "values": [false]
+    },
+    "description": {
+      "en": "Hide opponent note receptor arrows",
+      "es": "Oculta las flechas receptoras de notas del oponente",
+      "pt": "Oculta as flechas receptoras de notas do oponente"
+    }
+  },
+  {
+    "type": "option",
+    "id": "genesis_hide_op_notes",
+    "platform": ["all"],
+    "label": {
+      "en": "Hide Opponent Notes",
+      "es": "Ocultar Notas del Oponente",
+      "pt": "Ocultar Notas do Oponente"
+    },
+    "options": {
+      "input": "check",
+      "values": [false]
+    },
+    "description": {
+      "en": "Hide opponent notes",
+      "es": "Oculta las notas del oponente",
+      "pt": "Oculta as notas do oponente"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "HUD ELEMENTS",
+      "es": "ELEMENTOS HUD",
+      "pt": "ELEMENTOS HUD"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "genesis_popup_anim",
+    "platform": ["all"],
+    "label": {
+      "en": "Popup Animations",
+      "es": "Animaciones Emergentes",
+      "pt": "Animações Emergentes"
+    },
+    "options": {
+      "input": "drop",
+      "values": [
+        {
+          "id": "default",
+          "label": {
+            "en": "Stackeable",
+            "es": "Apilable",
+            "pt": "Empilhável"
+          },
+          "description": {
+            "en": "Popup animations will stack and will show one after another",
+            "es": "Las Animaciones emergentes se apilaran y se mostraran una tras otra",
+            "pt": "As animações emergentes serão empilhadas e exibidas uma após a outra"
+          }
+        },
+        {
+          "id": "stackeable",
+          "label": {
+            "en": "Instant",
+            "es": "Instantáneo",
+            "pt": "Instantâneo"
+          },
+          "description": {
+            "en": "Popup animations will not stack and will show instantly",
+            "es": "Las Animaciones emergentes no se apilaran y se mostraran instantaneamente",
+            "pt": "As animações emergentes não serão empilhadas e serão exibidas instantaneamente"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Choose the popup animation style",
+      "es": "Elige el estilo de animación emergente",
+      "pt": "Escolha o estilo de animação emergente"
+    }
+  },
+  {
+    "type": "option",
+    "id": "genesis_strum_bg_opacity",
+    "platform": ["all"],
+    "label": {
+      "en": "Lane Transparency",
+      "es": "Transparencia del Carril",
+      "pt": "Transparência da Pista"
+    },
+    "options": {
+      "input": "slider",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "values": [0]
+    },
+    "description": {
+      "en": "Adjust the opacity of the note lanes",
+      "es": "Ajusta la opacidad de los carriles de notas",
+      "pt": "Ajusta a opacidade das pistas de notas"
+    }
+  }
+]

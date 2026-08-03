@@ -1,0 +1,45 @@
+{
+  "applicationId": "com.genesis.js",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "port": 0,
+  "documentRoot": "/public/engine/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "enableExtensions": true,
+  "tokenSecurity": "one-time",
+  "singleInstance": true,
+  "nativeAllowList": [
+    "app.*",
+    "debug.*",
+    "os.*",
+    "window.*",
+    "events.*",
+    "filesystem.*",
+    "extensions.*",
+    "storage.*"
+  ],
+  "modes": {
+    "window": {
+      "title": "Genesis Engine",
+      "width": 1280,
+      "height": 720,
+      "minWidth": 400,
+      "minHeight": 200,
+      "center": true,
+      "enableInspector": true,
+      "resizable": true,
+      "exitProcessOnClose": true,
+      "webviewArgs": "--autoplay-policy=no-user-gesture-required --disable-features=PreloadMediaEngagementData,MediaEngagementBypassAutoplayPolicies"
+    }
+  },
+  "cli": {
+    "binaryName": "Genesis Engine",
+    "resourcesPath": "/public/engine/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/public/engine/src/core/native/pc/neutralino.js",
+    "binaryVersion": "6.5.0",
+    "clientVersion": "6.5.0"
+  }
+}

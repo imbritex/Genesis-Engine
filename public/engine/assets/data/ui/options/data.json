@@ -1,0 +1,82 @@
+[
+  {
+    "global": {
+      "icon": "database"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "STORAGE & CACHE",
+      "es": "ALMACENAMIENTO Y CACHE",
+      "pt": "ARMAZENAMENTO E CACHE"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "btn-clear-cache-data",
+    "platform": ["all"],
+    "label": {
+      "en": "Clear Image Cache",
+      "es": "Limpiar Cache de Imagenes",
+      "pt": "Limpar Cache de Imagens"
+    },
+    "options": {
+      "input": "action",
+      "values": []
+    },
+    "description": {
+      "en": "Clear cached image files",
+      "es": "Limpia los archivos de imágenes en caché",
+      "pt": "Limpa os arquivos de imagens em cache"
+    }
+  },
+  {
+    "type": "option",
+    "id": "btn-reset-save",
+    "platform": ["all"],
+    "label": {
+      "en": "Reset Save Data",
+      "es": "Reiniciar Datos de Guardado",
+      "pt": "Redefinir Dados Salvos"
+    },
+    "options": {
+      "input": "action",
+      "values": []
+    },
+    "description": {
+      "en": "Reset all saved game data",
+      "es": "Reinicia todos los datos del juego guardado",
+      "pt": "Redefine todos os dados salvos do jogo"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "MULTIPLAYER",
+      "es": "MULTIJUGADOR",
+      "pt": "MULTIJOGADOR"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "opt-replays",
+    "platform": ["desktop", "web"],
+    "label": {
+      "en": "Auto-Save Replays",
+      "es": "Guardar Automaticamente Replays",
+      "pt": "Salvar Replays Automaticamente"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Automatically save game replays",
+      "es": "Guarda automáticamente los replays del juego",
+      "pt": "Salva automaticamente os replays do jogo"
+    }
+  }
+]

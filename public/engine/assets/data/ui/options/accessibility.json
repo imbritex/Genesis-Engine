@@ -1,0 +1,91 @@
+[
+  {
+    "global": {
+      "icon": "accessibility"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "VISUAL SENSITIVITIES",
+      "es": "SENSIBILIDADES VISUALES",
+      "pt": "SENSIBILIDADES VISUAIS"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "opt-flashing-acc",
+    "platform": ["all"],
+    "label": {
+      "en": "Flashing Lights",
+      "es": "Luces Parpadeantes",
+      "pt": "Luzes Piscantes"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Allow flashing light effects",
+      "es": "Permite efectos de luces parpadeantes",
+      "pt": "Permite efeitos de luzes piscantes"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-screen-shake",
+    "platform": ["all"],
+    "label": {
+      "en": "Screen Shake",
+      "es": "Sacudida de Pantalla",
+      "pt": "Tremor de Tela"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Allow screen shake effects",
+      "es": "Permite efectos de sacudida de pantalla",
+      "pt": "Permite efeitos de tremor de tela"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "VISION HELPERS",
+      "es": "AYUDANTES VISUALES",
+      "pt": "AUXILIARES VISUAIS"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "opt-colorblind",
+    "platform": ["all"],
+    "label": {
+      "en": "Colorblind Filter",
+      "es": "Filtro para Daltónicos",
+      "pt": "Filtro para Daltônicos"
+    },
+    "options": {
+      "input": "drop",
+      "values": [
+        {
+          "id": "none",
+          "label": {
+            "en": "None",
+            "es": "Ninguno",
+            "pt": "Nenhum"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Apply colorblind-friendly filters",
+      "es": "Aplica filtros amigables para daltónicos",
+      "pt": "Aplica filtros amigáveis para daltônicos"
+    }
+  }
+]

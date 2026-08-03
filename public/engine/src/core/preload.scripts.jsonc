@@ -1,0 +1,147 @@
+[
+  // native
+  "src/core/native/pc/neutralino.js",
+  "src/utils/fileSystem/FileSystem.js",
+  "src/utils/fileSystem/providers/NeutralinoFS.js",
+  "src/utils/Storage.js",
+
+  // core
+  "src/core/phaser/wide.js",
+  "src/core/phaser/config.js",
+  "src/core/phaser/HUD.js",
+
+  // utils
+  "src/utils/DebugMonitor.js",
+  "src/utils/network/network.js",
+  "src/utils/OptionsStorage.js",
+  "src/utils/Preferences.js",
+  "src/utils/Conductor.js",
+  "src/utils/Path.js",
+  "src/utils/Controls.js",
+  "src/utils/ClientGlobals.js",
+  "src/utils/alphabet/Alphabet.js",
+  "src/utils/alphabet/AlphabetData.js",
+  "src/utils/soundtray/main.js",
+  "src/utils/soundtray/renderer.js",
+  "src/utils/visuals/TransitionScene.js",
+  "src/utils/toast.js",
+  "src/utils/HotReload.js",
+
+  // Data
+  "src/funkin/DataSongs.js",
+
+  // PLAYSCENE
+  "src/funkin/play/PlayData.js",
+  "src/funkin/play/Cameras.js",
+
+  "src/funkin/play/PlayScene.js",
+  "src/funkin/play/data/chars.js",
+  "src/funkin/play/data/chart.js",
+  "src/funkin/play/data/song.js",
+  "src/funkin/play/data/stage.js",
+  "src/funkin/play/data/skins.js",
+
+  "src/funkin/play/referee/init.js",
+  "src/funkin/play/referee/update.js",
+  "src/funkin/play/referee/shutdown.js",
+  "src/funkin/play/referee/preload.js",
+  "src/funkin/play/referee/pause.js",
+
+  "src/funkin/play/UI/countDown/renderer.js",
+  "src/funkin/play/UI/countDown/logic.js",
+
+  "src/funkin/play/stage/images.js",
+  "src/funkin/play/stage/xml.js",
+  "src/funkin/play/stage/props.js",
+  "src/funkin/play/stage/bg.js",
+
+  "src/funkin/play/characters/animations.js",
+  "src/funkin/play/characters/logic.js",
+  "src/funkin/play/characters/renderer.js",
+
+  "src/funkin/play/UI/arrows/directions.js",
+  "src/funkin/play/UI/arrows/strumlines/positions.js",
+  "src/funkin/play/UI/arrows/strumlines/renderer.js",
+  "src/funkin/play/UI/arrows/strumlines/logic.js",
+
+  "src/funkin/play/UI/arrows/notes/renderer.js",
+  "src/funkin/play/UI/arrows/notes/logic.js",
+
+  "src/funkin/play/UI/arrows/sustains/logic.js",
+  "src/funkin/play/UI/arrows/sustains/renderer.js",
+
+  "src/funkin/play/UI/arrows/hold/logic.js",
+  "src/funkin/play/UI/arrows/hold/renderer.js",
+
+  "src/funkin/play/UI/arrows/splash/logic.js",
+  "src/funkin/play/UI/arrows/splash/renderer.js",
+
+  "src/funkin/play/UI/arrows/bot.js",
+
+  "src/funkin/play/UI/pop/rating/renderer.js",
+  "src/funkin/play/UI/pop/rating/logic.js",
+
+  "src/funkin/play/UI/pop/combo/renderer.js",
+  "src/funkin/play/UI/pop/combo/logic.js",
+
+  "src/funkin/play/UI/health/logic.js",
+  "src/funkin/play/UI/health/renderer.js",
+
+  "src/funkin/play/Judgment.js",
+
+  "src/funkin/play/UI/score/logic.js",
+  "src/funkin/play/UI/score/renderer.js",
+
+  "src/funkin/play/referee/waiting.js",
+  "src/funkin/play/UI/multi/logic.js",
+  "src/funkin/play/UI/multi/renderer.js",
+
+  // intro
+  "src/funkin/menu/intro/text.js",
+  "src/funkin/menu/intro/funScript.js",
+  "src/funkin/menu/intro/danceGF.js",
+
+  // main
+  "src/funkin/menu/main/menu.js",
+
+  // free
+  "src/funkin/menu/free/FreeplayIcon.js",
+  "src/funkin/menu/free/FreeplayScene.js",
+
+  // multiplayer
+  "src/funkin/menu/multiplayer/MultiplayerScene.js",
+
+  //Pause Sub-Scene
+  "src/funkin/play/UI/pause/PauseScene.js",
+  "src/funkin/play/UI/pause/PauseMenuLogic.js",
+  "src/funkin/play/UI/pause/PauseMenuRenderer.js",
+  "src/funkin/play/UI/pause/PauseAudioFilter.js",
+
+  // Options
+  "src/funkin/menu/options/utils/AlphabetRenderer.js",
+  "src/funkin/menu/options/OptionsMenuScene.js",
+  "src/funkin/menu/options/OptionsUI.js",
+
+  "src/funkin/menu/options/components/animations/AnimationsManager.js",
+  "src/funkin/menu/options/components/animations/CheckboxAnimations.js",
+  "src/funkin/menu/options/components/animations/TextAnimations.js",
+
+  "src/funkin/menu/options/components/builder/UIBuilderManager.js",
+  "src/funkin/menu/options/components/builder/UIDomCreator.js",
+  "src/funkin/menu/options/components/builder/UIRenderer.js",
+  "src/funkin/menu/options/components/builder/UIEvents.js",
+  "src/funkin/menu/options/components/builder/UIHighlight.js",
+
+  "src/funkin/menu/options/components/icons/IconsManager.js",
+  "src/funkin/menu/options/components/icons/IconsRenderer.js",
+  "src/funkin/menu/options/components/icons/IconsAnimator.js",
+
+  "src/funkin/menu/options/components/input/InputHandler.js",
+  "src/funkin/menu/options/components/input/InputCore.js",
+  "src/funkin/menu/options/components/input/InputInteractor.js",
+  "src/funkin/menu/options/components/input/InputKeybinder.js",
+
+  "src/funkin/menu/options/components/tabs/TabsManager.js",
+  "src/funkin/menu/options/components/tabs/TabsRenderer.js",
+  "src/funkin/menu/options/components/tabs/TabsAnimator.js"
+]

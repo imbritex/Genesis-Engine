@@ -1,0 +1,3 @@
+[submodule "public/engine/assets"]
+	path = public/engine/assets
+	url = https://github.com/expertyeti/genesis-assets

@@ -1,0 +1,185 @@
+[
+  {
+    "global": {
+      "icon": "volume"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "MIXING",
+      "es": "MEZCLA",
+      "pt": "MIXAGEM"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "opt-vol-master",
+    "platform": ["all"],
+    "label": {
+      "en": "Master Volume",
+      "es": "Volumen Maestro",
+      "pt": "Volume Mestre"
+    },
+    "options": {
+      "input": "slider",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "values": [100]
+    },
+    "description": {
+      "en": "Adjust the overall game volume",
+      "es": "Ajusta el volumen general del juego",
+      "pt": "Ajusta o volume geral do jogo"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-vol-inst",
+    "platform": ["all"],
+    "label": {
+      "en": "Inst Volume",
+      "es": "Volumen de Instrumentales",
+      "pt": "Volume Instrumental"
+    },
+    "options": {
+      "input": "slider",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "values": [100]
+    },
+    "description": {
+      "en": "Adjust instrumental music volume",
+      "es": "Ajusta el volumen de la música instrumental",
+      "pt": "Ajusta o volume da música instrumental"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-vol-voices",
+    "platform": ["all"],
+    "label": {
+      "en": "Voices Volume",
+      "es": "Volumen de Voces",
+      "pt": "Volume de Vocais"
+    },
+    "options": {
+      "input": "slider",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "values": [100]
+    },
+    "description": {
+      "en": "Adjust vocal track volume",
+      "es": "Ajusta el volumen de las pistas vocales",
+      "pt": "Ajusta o volume das faixas vocais"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "GAMEPLAY AUDIO",
+      "es": "AUDIO DE JUEGO",
+      "pt": "ÁUDIO DE JOGO"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "opt-vol-hitsound",
+    "platform": ["all"],
+    "label": {
+      "en": "Hit Sound Vol",
+      "es": "Volumen del Sonido de Golpe",
+      "pt": "Volume do Som de Acerto"
+    },
+    "options": {
+      "input": "slider",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "values": [100]
+    },
+    "description": {
+      "en": "Adjust the hit sound effect volume",
+      "es": "Ajusta el volumen del efecto de sonido de golpe",
+      "pt": "Ajusta o volume do efeito sonoro de acerto"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-vol-miss-player",
+    "platform": ["all"],
+    "label": {
+      "en": "Player Miss Vol",
+      "es": "Volumen de Fallo del Jugador",
+      "pt": "Volume de Erro do Jogador"
+    },
+    "options": {
+      "input": "slider",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "values": [100]
+    },
+    "description": {
+      "en": "Adjust the player miss sound volume",
+      "es": "Ajusta el volumen del sonido de fallo del jugador",
+      "pt": "Ajusta o volume do som de erro do jogador"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-vol-miss-opp",
+    "platform": ["all"],
+    "label": {
+      "en": "Opponent Miss Vol",
+      "es": "Volumen de Fallo del Oponente",
+      "pt": "Volume de Erro do Oponente"
+    },
+    "options": {
+      "input": "slider",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "values": [50]
+    },
+    "description": {
+      "en": "Adjust the opponent miss sound volume",
+      "es": "Ajusta el volumen del sonido de fallo del oponente",
+      "pt": "Ajusta o volume do som de erro do oponente"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "SYNCHRONIZATION",
+      "es": "SINCRONIZACION",
+      "pt": "SINCRONIZAÇÃO"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "btn-offset-start",
+    "platform": ["all"],
+    "label": {
+      "en": "Note Offset",
+      "es": "Desplazamiento de Notas",
+      "pt": "Deslocamento de Notas"
+    },
+    "options": {
+      "input": "action",
+      "values": []
+    },
+    "description": {
+      "en": "Calibrate note timing offset",
+      "es": "Calibra el desplazamiento de tiempo de las notas",
+      "pt": "Calibra o deslocamento de tempo das notas"
+    }
+  }
+]

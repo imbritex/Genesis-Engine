@@ -1,0 +1,108 @@
+[
+    {
+        "global": {
+            "icon": "world"
+        }
+    },
+    {
+        "type": "option",
+        "id": "opt-lang",
+        "platform": ["all"],
+        "label": {
+            "en": "Language",
+            "es": "Idioma",
+            "pt": "Idioma"
+        },
+        "options": {
+            "input": "drop",
+            "values": [
+                {
+                    "id": "en",
+                    "label": {
+                        "en": "English",
+                        "es": "Inglés",
+                        "pt": "Inglês"
+                    }
+                },
+                {
+                    "id": "es",
+                    "label": {
+                        "en": "Spanish",
+                        "es": "Español",
+                        "pt": "Espanhol"
+                    }
+                },
+                {
+                    "id": "pt",
+                    "label": {
+                        "en": "Portuguese",
+                        "es": "Portugués",
+                        "pt": "Português"
+                    }
+                }
+            ]
+        },
+        "description": {
+            "en": "Changes the game's interface language",
+            "es": "Cambia el idioma de la interfaz del juego",
+            "pt": "Altera o idioma da interface do jogo"
+        }
+    },
+    {
+        "type": "option",
+        "id": "opt-discord",
+        "platform": ["pc"],
+        "label": {
+            "en": "Discord RPC",
+            "es": "RPC de Discord",
+            "pt": "RPC do Discord"
+        },
+        "options": {
+            "input": "check",
+            "values": [true]
+        },
+        "description": {
+            "en": "Show your game status on Discord",
+            "es": "Muestra tu estado de juego en Discord",
+            "pt": "Mostre seu status de jogo no Discord"
+        }
+    },
+    {
+        "type": "option",
+        "id": "opt-autopause",
+        "platform": ["all"],
+        "label": {
+            "en": "Auto Pause",
+            "es": "Pausa Automatica",
+            "pt": "Pausa Automática"
+        },
+        "options": {
+            "input": "check",
+            "values": [false]
+        },
+        "description": {
+            "en": "Automatically pause when window loses focus",
+            "es": "Pausa automáticamente cuando la ventana pierde el enfoque",
+            "pt": "Pausa automaticamente quando a janela perde o foco"
+        }
+    },
+    {
+        "type": "option",
+        "id": "opt-updates",
+        "platform": ["all"],
+        "label": {
+            "en": "Check Updates",
+            "es": "Buscar Actualizaciones",
+            "pt": "Verificar Atualizações"
+        },
+        "options": {
+            "input": "check",
+            "values": [false]
+        },
+        "description": {
+            "en": "Automatically check for updates",
+            "es": "Buscar actualizaciones automáticamente",
+            "pt": "Verificar atualizações automaticamente"
+        }
+    }
+]

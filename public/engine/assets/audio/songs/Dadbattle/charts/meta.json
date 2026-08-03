@@ -1,0 +1,102 @@
+{
+  "songName": "DadBattle",
+  "base": {
+    "stage": "mainStage",
+    "scrollSpeed": 1,
+    "lanes": 4,
+    "characters": {
+      "players": [
+        "bf"
+      ],
+      "opponents": [
+        "dad"
+      ],
+      "spectator": [
+        "gf"
+      ]
+    },
+    "credits": [
+      "Artist: Kawai Sprite"
+    ],
+    "skins": {
+      "ui": "funkin",
+      "pause": "funkin"
+    },
+    "audio": {
+      "bpm": 180,
+      "needsVoices": true,
+      "multiVocal": true,
+      "instrumental": {
+        "inst": {
+          "file": "Inst.ogg",
+          "offset": 0
+        }
+      },
+      "vocals": {
+        "player": {
+          "file": "Voices-bf.ogg",
+          "offset": 0
+        },
+        "opponent": {
+          "file": "Voices-dad.ogg",
+          "offset": 0
+        }
+      }
+    }
+  },
+  "difficulties": {
+    "easy": {
+      "scrollSpeed": 1.6
+    },
+    "normal": {
+      "scrollSpeed": 1.8
+    },
+    "hard": {
+      "scrollSpeed": 2.3
+    },
+    "erect": {
+      "scrollSpeed": 2.4,
+      "stage": "mainStageErect",
+      "audio": {
+        "instrumental": {
+          "inst": {
+            "file": "Inst-erect.ogg",
+            "offset": 0
+          }
+        },
+        "vocals": {
+          "player": {
+            "file": "Voices-bf-erect.ogg",
+            "offset": 0
+          },
+          "opponent": {
+            "file": "Voices-dad-erect.ogg",
+            "offset": 0
+          }
+        }
+      }
+    },
+    "nightmare": {
+      "scrollSpeed": 2.6,
+      "stage": "mainStageErect",
+      "audio": {
+        "instrumental": {
+          "inst": {
+            "file": "Inst-erect.ogg",
+            "offset": 0
+          }
+        },
+        "vocals": {
+          "player": {
+            "file": "Voices-bf-erect.ogg",
+            "offset": 0
+          },
+          "opponent": {
+            "file": "Voices-dad-erect.ogg",
+            "offset": 0
+          }
+        }
+      }
+    }
+  }
+}

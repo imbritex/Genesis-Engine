@@ -1,0 +1,228 @@
+{
+  "global": {
+    "basePath": "Funkin"
+  },
+  "gameplay": {
+    "strumline": {
+      "path": "notes/noteStrumline",
+      "scale": 0.7,
+      "alpha": 1.0,
+      "offsets": {
+        "static": [0, 0],
+        "press": [30, 30],
+        "confirm": [0, 0]
+      },
+      "animations": {
+        "left": {
+          "static": "staticLeft",
+          "press": "pressLeft",
+          "confirm": "confirmLeft"
+        },
+        "down": {
+          "static": "staticDown",
+          "press": "pressDown",
+          "confirm": "confirmDown"
+        },
+        "up": {
+          "static": "staticUp",
+          "press": "pressUp",
+          "confirm": "confirmUp"
+        },
+        "right": {
+          "static": "staticRight",
+          "press": "pressRight",
+          "confirm": "confirmRight"
+        }
+      }
+    },
+    "notes": {
+      "path": "notes/notes",
+      "scale": 0.7,
+      "alpha": 1.0,
+      "Offset": [25, 25],
+      "animations": {
+        "left": "noteLeft",
+        "down": "noteDown",
+        "up": "noteUp",
+        "right": "noteRight"
+      }
+    },
+    "sustains": {
+      "path": "notes/NOTE_hold_assets",
+      "scale": 0.6,
+      "alpha": 0.9,
+      "Offset": [-2, 0],
+      "OffsetHit": [0, 0],
+      "animations": {
+        "left": {
+          "body": "purple hold piece",
+          "end": "purple hold end"
+        },
+        "down": {
+          "body": "blue hold piece",
+          "end": "blue hold end"
+        },
+        "up": {
+          "body": "green hold piece",
+          "end": "green hold end"
+        },
+        "right": {
+          "body": "red hold piece",
+          "end": "red hold end"
+        }
+      }
+    },
+    "noteSplashes": {
+      "path": "notes/noteSplashes",
+      "scale": 0.9,
+      "alpha": 1,
+      "Offset": [50, 50],
+      "animations": {
+        "left": ["note impact 1 purple", "note impact 2 purple"],
+        "down": ["note impact 1 blue", "note impact 2 blue"],
+        "up": ["note impact 1 green", "note impact 2 green"],
+        "right": ["note impact 1 red", "note impact 2 red"]
+      }
+    },
+    "holdCovers": {
+      "scale": 1,
+      "alpha": 1.0,
+      "Offset": [13, 75],
+      "directions": {
+        "left": {
+          "path": "notes/holdCovers/holdCoverPurple",
+          "animations": {
+            "start": "holdCoverStartPurple",
+            "hold": "holdCoverPurple",
+            "end": "holdCoverEndPurple"
+          }
+        },
+        "down": {
+          "path": "notes/holdCovers/holdCoverBlue",
+          "animations": {
+            "start": "holdCoverStartBlue",
+            "hold": "holdCoverBlue",
+            "end": "holdCoverEndBlue"
+          }
+        },
+        "up": {
+          "path": "notes/holdCovers/holdCoverGreen",
+          "animations": {
+            "start": "holdCoverStartGreen",
+            "hold": "holdCoverGreen",
+            "end": "holdCoverEndGreen"
+          }
+        },
+        "right": {
+          "path": "notes/holdCovers/holdCoverRed",
+          "animations": {
+            "start": "holdCoverStartRed",
+            "hold": "holdCoverRed",
+            "end": "holdCoverEndRed"
+          }
+        }
+      }
+    }
+  },
+  "misses": {
+    "sounds": {
+      "volume": 0.8,
+      "path": [
+        "miss/missnote1.ogg",
+        "miss/missnote2.ogg",
+        "miss/missnote3.ogg"
+      ]
+    }
+  },
+  "ui": {
+    "countdown": {
+      "three": {
+        "audio": {
+          "path": "count/sound/introTHREE",
+          "volume": 1.0
+        },
+        "image": {
+          "path": null
+        }
+      },
+      "two": {
+        "audio": {
+          "path": "count/sound/introTWO",
+          "volume": 1.0
+        },
+        "image": {
+          "path": "count/img/ready",
+          "scale": 1.0,
+          "alpha": 1.0
+        }
+      },
+      "one": {
+        "audio": {
+          "assetPath": "count/sound/introONE",
+          "volume": 1.0
+        },
+        "image": {
+          "path": "count/img/set",
+          "scale": 1.0,
+          "alpha": 1.0
+        }
+      },
+      "go": {
+        "audio": {
+          "path": "count/sound/introGO",
+          "volume": 1.0
+        },
+        "image": {
+          "path": "count/img/go",
+          "scale": 1.0,
+          "alpha": 1.0
+        }
+      }
+    },
+    "judgments": {
+      "perfect": {
+        "assetPath": null,
+        "scale": 0.65
+      },
+      "sick": {
+        "path": "popUp/judgment/sick",
+        "scale": 0.65
+      },
+      "good": {
+        "path": "popUp/judgment/good",
+        "scale": 0.65
+      },
+      "bad": {
+        "assetPath": "popUp/judgment/bad",
+        "scale": 0.65
+      },
+      "shit": {
+        "assetPath": "popUp/judgment/shit",
+        "scale": 0.65
+      }
+    },
+    "comboNumbers": {
+      "globalScale": 0.5,
+      "globalAlpha": 1.0,
+      "assets": {
+        "0": "popUp/num/num0",
+        "1": "popUp/num/num1",
+        "2": "popUp/num/num2",
+        "3": "popUp/num/num3",
+        "4": "popUp/num/num4",
+        "5": "popUp/num/num5",
+        "6": "popUp/num/num6",
+        "7": "popUp/num/num7",
+        "8": "popUp/num/num8",
+        "9": "popUp/num/num9"
+      }
+    },
+    "bars": {
+      "health": {
+        "path": "bars/healthBar",
+        "scale": "1",
+        "alpha": "1"
+      }
+    }
+  }
+}

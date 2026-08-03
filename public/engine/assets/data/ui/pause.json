@@ -1,0 +1,8 @@
+{
+  "music": "breakfast",
+  "options": [
+    { "label": "RESUME", "action": "resume" },
+    { "label": "RESTART SONG", "action": "restart" },
+    { "label": "EXIT TO MENU", "action": "exit" }
+  ]
+}

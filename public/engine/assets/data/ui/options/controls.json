@@ -1,0 +1,166 @@
+[
+  {
+    "type": "header",
+    "label": { "en": "PLAYER NOTES", "es": "NOTAS JUGADOR", "pt": "NOTAS DO JOGADOR" }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_note_left",
+    "label": { "en": "NOTE LEFT", "es": "NOTA IZQUIERDA", "pt": "NOTA ESQUERDA" },
+    "description": { "en": "Key to hit the LEFT note.", "es": "Tecla para presionar la nota IZQUIERDA.", "pt": "Tecla para pressionar a nota ESQUERDA." },
+    "options": { "input": "keybind", "action": "NOTE_LEFT", "defaults": [37] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_note_down",
+    "label": { "en": "NOTE DOWN", "es": "NOTA ABAJO", "pt": "NOTA ABAIXO" },
+    "description": { "en": "Key to hit the DOWN note.", "es": "Tecla para presionar la nota ABAJO.", "pt": "Tecla para pressionar a nota ABAIXO." },
+    "options": { "input": "keybind", "action": "NOTE_DOWN", "defaults": [40] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_note_up",
+    "label": { "en": "NOTE UP", "es": "NOTA ARRIBA", "pt": "NOTA CIMA" },
+    "description": { "en": "Key to hit the UP note.", "es": "Tecla para presionar la nota ARRIBA.", "pt": "Tecla para pressionar a nota CIMA." },
+    "options": { "input": "keybind", "action": "NOTE_UP", "defaults": [38] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_note_right",
+    "label": { "en": "NOTE RIGHT", "es": "NOTA DERECHA", "pt": "NOTA DIREITA" },
+    "description": { "en": "Key to hit the RIGHT note.", "es": "Tecla para presionar la nota DERECHA.", "pt": "Tecla para pressionar a nota DIREITA." },
+    "options": { "input": "keybind", "action": "NOTE_RIGHT", "defaults": [39] }
+  },
+
+  {
+    "type": "header",
+    "label": { "en": "PLAYER 2 NOTES", "es": "NOTAS JUGADOR 2", "pt": "NOTAS JOGADOR 2" }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_p2_note_left",
+    "label": { "en": "P2 NOTE LEFT", "es": "P2 NOTA IZQUIERDA", "pt": "P2 NOTA ESQUERDA" },
+    "description": { "en": "Key for Player 2 to hit the LEFT note.", "es": "Tecla del Jugador 2 para la nota IZQUIERDA.", "pt": "Tecla do Jogador 2 para a nota ESQUERDA." },
+    "options": { "input": "keybind", "action": "P2_NOTE_LEFT", "defaults": [65] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_p2_note_down",
+    "label": { "en": "P2 NOTE DOWN", "es": "P2 NOTA ABAJO", "pt": "P2 NOTA ABAIXO" },
+    "description": { "en": "Key for Player 2 to hit the DOWN note.", "es": "Tecla del Jugador 2 para la nota ABAJO.", "pt": "Tecla do Jogador 2 para a nota ABAIXO." },
+    "options": { "input": "keybind", "action": "P2_NOTE_DOWN", "defaults": [83] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_p2_note_up",
+    "label": { "en": "P2 NOTE UP", "es": "P2 NOTA ARRIBA", "pt": "P2 NOTA CIMA" },
+    "description": { "en": "Key for Player 2 to hit the UP note.", "es": "Tecla del Jugador 2 para la nota ARRIBA.", "pt": "Tecla do Jogador 2 para a nota CIMA." },
+    "options": { "input": "keybind", "action": "P2_NOTE_UP", "defaults": [87] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_p2_note_right",
+    "label": { "en": "P2 NOTE RIGHT", "es": "P2 NOTA DERECHA", "pt": "P2 NOTA DIREITA" },
+    "description": { "en": "Key for Player 2 to hit the RIGHT note.", "es": "Tecla del Jugador 2 para la nota DERECHA.", "pt": "Tecla do Jogador 2 para a nota DIREITA." },
+    "options": { "input": "keybind", "action": "P2_NOTE_RIGHT", "defaults": [68] }
+  },
+
+  {
+    "type": "header",
+    "label": { "en": "UI NAVIGATION", "es": "NAVEGACIÓN UI", "pt": "NAVEGAÇÃO UI" }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_ui_up",
+    "label": { "en": "UI UP", "es": "UI ARRIBA", "pt": "UI CIMA" },
+    "description": { "en": "Navigate up in menus.", "es": "Navegar hacia arriba en los menús.", "pt": "Navegar para cima nos menus." },
+    "options": { "input": "keybind", "action": "UI_UP", "defaults": [38, 87] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_ui_down",
+    "label": { "en": "UI DOWN", "es": "UI ABAJO", "pt": "UI BAIXO" },
+    "description": { "en": "Navigate down in menus.", "es": "Navegar hacia abajo en los menús.", "pt": "Navegar para baixo nos menus." },
+    "options": { "input": "keybind", "action": "UI_DOWN", "defaults": [40, 83] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_ui_left",
+    "label": { "en": "UI LEFT", "es": "UI IZQUIERDA", "pt": "UI ESQUERDA" },
+    "description": { "en": "Navigate left in menus.", "es": "Navegar hacia la izquierda en los menús.", "pt": "Navegar para a esquerda nos menus." },
+    "options": { "input": "keybind", "action": "UI_LEFT", "defaults": [37, 65] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_ui_right",
+    "label": { "en": "UI RIGHT", "es": "UI DERECHA", "pt": "UI DIREITA" },
+    "description": { "en": "Navigate right in menus.", "es": "Navegar hacia la derecha en los menús.", "pt": "Navegar para a direita nos menus." },
+    "options": { "input": "keybind", "action": "UI_RIGHT", "defaults": [39, 68] }
+  },
+
+  {
+    "type": "header",
+    "label": { "en": "GENERAL ACTIONS", "es": "ACCIONES GENERALES", "pt": "AÇÕES GERAIS" }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_accept",
+    "label": { "en": "ACCEPT", "es": "ACEPTAR", "pt": "ACEITAR" },
+    "description": { "en": "Accept and confirm selections.", "es": "Aceptar y confirmar selecciones.", "pt": "Aceitar e confirmar seleções." },
+    "options": { "input": "keybind", "action": "ACCEPT", "defaults": [13, 32] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_back",
+    "label": { "en": "BACK", "es": "ATRÁS", "pt": "VOLTAR" },
+    "description": { "en": "Go back or cancel an action.", "es": "Regresar o cancelar una acción.", "pt": "Voltar ou cancelar uma ação." },
+    "options": { "input": "keybind", "action": "BACK", "defaults": [27, 8] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_pause",
+    "label": { "en": "PAUSE", "es": "PAUSAR", "pt": "PAUSAR" },
+    "description": { "en": "Pause the gameplay.", "es": "Pausar el juego durante una canción.", "pt": "Pausar o jogo durante uma música." },
+    "options": { "input": "keybind", "action": "PAUSE", "defaults": [13, 27] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_debugg",
+    "label": { "en": "DEBUG", "es": "DEBUGG", "pt": "DEBUG" },
+    "description": { "en": "Toggle debug monitor tools.", "es": "Activar las herramientas del monitor de debug.", "pt": "Ativar as ferramentas do monitor de debug." },
+    "options": { "input": "keybind", "action": "DEBUGG", "defaults": [55, 114] }
+  },
+
+  {
+    "type": "header",
+    "label": { "en": "GLOBAL VOLUME", "es": "VOLUMEN GLOBAL", "pt": "VOLUME GLOBAL" }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_vol_up",
+    "label": { "en": "VOLUME UP", "es": "SUBIR VOLUMEN", "pt": "AUMENTAR VOLUME" },
+    "description": { "en": "Increase the global volume.", "es": "Aumentar el volumen global del juego.", "pt": "Aumentar o volume global do jogo." },
+    "options": { "input": "keybind", "action": "VOL_UP", "defaults": [187, 107] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_vol_down",
+    "label": { "en": "VOLUME DOWN", "es": "BAJAR VOLUMEN", "pt": "DIMINUIR VOLUME" },
+    "description": { "en": "Decrease the global volume.", "es": "Reducir el volumen global del juego.", "pt": "Reduzir o volume global do jogo." },
+    "options": { "input": "keybind", "action": "VOL_DOWN", "defaults": [189, 109] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_vol_mute",
+    "label": { "en": "MUTE", "es": "SILENCIAR", "pt": "SILENCIAR" },
+    "description": { "en": "Mute or unmute all sounds.", "es": "Silenciar o restaurar todo el sonido.", "pt": "Silenciar ou restaurar todo o som." },
+    "options": { "input": "keybind", "action": "VOL_MUTE", "defaults": [48, 96] }
+  },
+  {
+    "type": "option",
+    "id": "ctrl_dev_tools",
+    "label": { "en": "DEV TOOLS", "es": "HERRAMIENTAS DEV", "pt": "FERRAMENTAS DEV" },
+    "description": { "en": "Open development tools.", "es": "Abrir herramientas de desarrollo.", "pt": "Abrir ferramentas de desenvolvimento." },
+    "options": { "input": "keybind", "action": "DEV_TOOLS", "defaults": [114, 0] }
+  }
+]

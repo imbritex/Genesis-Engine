@@ -1,0 +1,247 @@
+{
+    "stage": [
+        {
+            "type": "spritesheet",
+            "layer": 2,
+            "scale": 7,
+            "namePath": "backstage/crowd",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                682, 290
+            ],
+            "origin": [
+                0,
+                0
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 0.8,
+            "animation": {
+                "play_list": {
+                    "idle": {
+                        "prefix": "idle0"
+                    }
+                },
+                "play_mode": "Loop",
+                "frameRate": 12,
+                "offsets": {},
+                "beat": [
+                    1
+                ]
+            }
+        },
+        {
+            "type": "image",
+            "layer": 3,
+            "scale": 1,
+            "namePath": "backstage/brightLightSmall",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                967,
+                -103
+            ],
+            "origin": [
+                0,
+                0
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 1.2
+        },
+        {
+            "type": "image",
+            "layer": 4,
+            "scale": 1,
+            "namePath": "backstage/bg",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                -765,
+                -247
+            ],
+            "origin": [
+                0,
+                0
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 1
+        },
+        {
+            "type": "image",
+            "layer": 5,
+            "scale": 1,
+            "namePath": "backstage/server",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                -991,
+                205
+            ],
+            "origin": [
+                0,
+                0
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 1
+        },
+        {
+            "type": "image",
+            "layer": 6,
+            "scale": 1,
+            "namePath": "backstage/lightgreen",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                -171,
+                242
+            ],
+            "origin": [
+                0,
+                0
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 1
+        },
+        {
+            "type": "image",
+            "layer": 7,
+            "scale": 1,
+            "namePath": "backstage/lightred",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                -101,
+                560
+            ],
+            "origin": [
+                0,
+                0
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 1
+        },
+        {
+            "type": "image",
+            "layer": 8,
+            "scale": 1,
+            "namePath": "backstage/orangeLight",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                189,
+                -500
+            ],
+            "origin": [
+                0,
+                0
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 1
+        },
+        {
+            "spectator": {
+                "type": "character",
+                "layer": 9,
+                "scale": 1,
+                "visible": true,
+                "opacity": 1,
+                "position": [
+                    501.5,
+                    815
+                ],
+                "camera_Offset": [
+                    0,
+                    0
+                ],
+                "flip_x": false,
+                "flip_y": false,
+                "scrollFactor": 1
+            }
+        },
+        {
+            "opponents": {
+                "type": "character",
+                "layer": 10,
+                "scale": 1,
+                "visible": true,
+                "opacity": 1,
+                "position": [
+                    40,
+                    885
+                ],
+                "camera_Offset": [
+                    270,
+                    -100
+                ],
+                "flip_x": false,
+                "flip_y": false,
+                "scrollFactor": 1
+            }
+        },
+        {
+            "players": {
+                "type": "character",
+                "layer": 11,
+                "scale": 1,
+                "visible": true,
+                "opacity": 1,
+                "position": [
+                    977.5,
+                    905
+                ],
+                "camera_Offset": [
+                    -170,
+                    -140
+                ],
+                "flip_x": false,
+                "flip_y": false,
+                "scrollFactor": 1
+            }
+        },
+        {
+            "type": "image",
+            "layer": 12,
+            "scale": 1,
+            "namePath": "backstage/lights",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                -847,
+                -245
+            ],
+            "origin": [
+                0,
+                0
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 1.2
+        },
+        {
+            "type": "image",
+            "layer": 13,
+            "scale": 1,
+            "namePath": "backstage/lightAbove",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                804,
+                -117
+            ],
+            "origin": [
+                0,
+                0
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 1
+        }
+    ]
+}

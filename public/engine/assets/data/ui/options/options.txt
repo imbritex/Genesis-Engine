@@ -1,0 +1,25 @@
+  {
+    "option": "controls",
+    "icon": "controller"
+  },
+
+    {
+    "option": "audio",
+    "icon": "megaphone"
+  },
+  {
+    "option": "performance",
+    "icon": "graphic"
+  },
+  {
+    "option": "advanced",
+    "icon": "wrench"
+  },
+  {
+    "option": "accessibility",
+    "icon": "keys"
+  },
+  {
+    "option": "data",
+    "icon": "windows"
+  }

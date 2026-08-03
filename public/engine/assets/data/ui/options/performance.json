@@ -1,0 +1,178 @@
+[
+  {
+    "global": {
+      "icon": "zap"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "GRAPHICS",
+      "es": "GRAFICOS",
+      "pt": "GRÁFICOS"
+    },
+    "platform": ["desktop", "web"]
+  },
+  {
+    "type": "option",
+    "id": "opt-res-scale",
+    "platform": ["desktop", "web"],
+    "label": {
+      "en": "Resolution Scale",
+      "es": "Escala de Resolucion",
+      "pt": "Escala de Resolução"
+    },
+    "options": {
+      "input": "drop",
+      "values": [
+        {
+          "id": "1.0",
+          "label": {
+            "en": "100%",
+            "es": "100%",
+            "pt": "100%"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Adjust the rendering resolution scale",
+      "es": "Ajusta la escala de resolución de renderizado",
+      "pt": "Ajusta a escala de resolução de renderização"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-antialiasing",
+    "platform": ["desktop"],
+    "label": {
+      "en": "Antialiasing",
+      "es": "Antialiasing",
+      "pt": "Antialiasing"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Enable antialiasing for smoother graphics",
+      "es": "Habilita antialiasing para gráficos más suave",
+      "pt": "Ativa antialiasing para gráficos mais suaves"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-low-quality",
+    "platform": ["all"],
+    "label": {
+      "en": "Low Quality Mode",
+      "es": "Modo de Baja Calidad",
+      "pt": "Modo de Baixa Qualidade"
+    },
+    "options": {
+      "input": "check",
+      "values": [false]
+    },
+    "description": {
+      "en": "Enable low quality mode for better performance",
+      "es": "Habilita modo de baja calidad para mejor rendimiento",
+      "pt": "Ativa modo de baixa qualidade para melhor desempenho"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "SYSTEM",
+      "es": "SISTEMA",
+      "pt": "SISTEMA"
+    },
+    "platform": ["desktop", "web"]
+  },
+  {
+    "type": "option",
+    "id": "opt-fps-cap",
+    "platform": ["desktop", "web"],
+    "label": {
+      "en": "FPS Cap",
+      "es": "Limite de FPS",
+      "pt": "Limite de FPS"
+    },
+    "options": {
+      "input": "number",
+      "min": 30,
+      "max": 360,
+      "values": [60]
+    },
+    "description": {
+      "en": "Set maximum frames per second",
+      "es": "Establece máximo de fotogramas por segundo",
+      "pt": "Define o máximo de quadros por segundo"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-gpu-caching",
+    "platform": ["desktop"],
+    "label": {
+      "en": "GPU Caching",
+      "es": "Cache de GPU",
+      "pt": "Cache de GPU"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Enable GPU resource caching",
+      "es": "Habilita almacenamiento en caché de recursos de GPU",
+      "pt": "Ativa armazenamento em cache de recursos da GPU"
+    }
+  },
+  {
+    "type": "header",
+    "label": {
+      "en": "PARTICLES & FX",
+      "es": "PARTICULAS Y EFECTOS",
+      "pt": "PARTÍCULAS E EFEITOS"
+    },
+    "platform": ["all"]
+  },
+  {
+    "type": "option",
+    "id": "opt-splashes",
+    "platform": ["all"],
+    "label": {
+      "en": "Note Splashes",
+      "es": "Salpicaduras de Notas",
+      "pt": "Respingos de Notas"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Enable note splash effects",
+      "es": "Habilita efectos de salpicadura de notas",
+      "pt": "Ativa efeitos de respingos de notas"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-reduce-motion",
+    "platform": ["all"],
+    "label": {
+      "en": "Reduce Motion",
+      "es": "Reducir Movimiento",
+      "pt": "Reduzir Movimento"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Reduce animation effects",
+      "es": "Reduce efectos de animación",
+      "pt": "Reduz efeitos de animação"
+    }
+  }
+]

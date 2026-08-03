@@ -1,0 +1,161 @@
+[
+  {
+    "global": {
+      "icon": "gameplay"
+    }
+  },
+  {
+    "type": "option",
+    "id": "genesis_middle_scroll",
+    "platform": ["all"],
+    "label": {
+      "en": "Middle Scroll",
+      "es": "Desplazamiento Medio",
+      "pt": "Rolagem Central"
+    },
+    "options": {
+      "input": "drop",
+      "values": [
+        {
+          "id": "none",
+          "label": {
+            "en": "Disabled",
+            "es": "Deshabilitado",
+            "pt": "Desativado"
+          },
+          "description": {
+            "en": "Puts player arrows in the middle of the screen if is enabled",
+            "es": "Coloca las flechas del jugador en el centro de la pantalla si se activa",
+            "pt": "Coloca as flechas do jogador no centro da tela se ativado"
+          }
+        },
+        {
+          "id": "split",
+          "label": {
+            "en": "Split",
+            "es": "Dividido",
+            "pt": "Dividido"
+          },
+          "description": {
+            "en": "Split puts opponent arrows split to the sides of the player",
+            "es": "Split coloca las flechas del enemigo dividdas a los lados del jugador",
+            "pt": "Dividido coloca as flechas do oponente divididas aos lados do jogador"
+          }
+        },
+        {
+          "id": "mini",
+          "label": {
+            "en": "Mini",
+            "es": "Mini",
+            "pt": "Mini"
+          },
+          "description": {
+            "en": "Mini puts opponent arrows next to the player's but smaller",
+            "es": "Mini, coloca las flechas del enemigo al lado de las del jugador, pero más pequeñas",
+            "pt": "Mini coloca as flechas do oponente ao lado das do jogador, porém menores"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Puts player arrows in the middle of the screen.\n Split puts opponent arrows split to the sides of the player.\n Mini, puts opponent arrows next to the player's but smaller",
+      "es": "Coloca las flechas del jugador en el centro de la pantalla.\n Split coloca las flechas del enemigo dividdas a los lados del jugador.\n Mini, coloca las flechas del enemigo al lado de las del jugador, pero más pequeñas",
+      "pt": "Coloca as flechas do jogador no centro da tela.\n Split coloca as flechas do oponente divididas aos lados do jogador.\n Mini coloca as flechas do oponente ao lado das do jogador, porém menores"
+    }
+  },
+    {
+    "type": "option",
+    "id": "genesis_downscroll",
+    "platform": ["all"],
+    "label": {
+      "en": "Down Scroll",
+      "es": "Desplazamiento Hacia Abajo",
+      "pt": "Rolagem para Baixo"
+    },
+    "options": {
+      "input": "check",
+        "values": [false]
+    },
+    "description": {
+      "en": "Changes the scroll direction",
+      "es": "Cambia la dirección de desplazamiento de las flechas de arriba hacia abajo",
+      "pt": "Muda a direção da rolagem das flechas de cima para baixo"
+    }
+  },
+  {
+    "type": "option",
+    "id": "genesis_ghost_tapping",
+    "platform": ["all"],
+    "label": {
+      "en": "Ghost Tapping",
+      "es": "Toque Fantasma",
+      "pt": "Toque Fantasma"
+    },
+    "options": {
+      "input": "check",
+      "values": [false]
+    },
+    "description": {
+      "en": "Enables ghost tapping, pressing a receptor won't count as a miss unless there's a note nearby",
+      "es": "Habilita el toque fantasma, al presionar un receptor, no se marcará como fallo aunque a menos que haya una nota cerca",
+      "pt": "Ativa o toque fantasma, pressionar um receptor não contará como erro a menos que haja uma nota por perto"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-showcase",
+    "platform": ["all"],
+    "label": {
+      "en": "Showcase Mode",
+      "es": "Modo Demostracion",
+      "pt": "Modo Demonstração"
+    },
+    "options": {
+      "input": "check",
+      "values": [false]
+    },
+    "description": {
+      "en": "Watch the game play itself automatically with the UI hidden, perfect for showcasing your levels",
+      "es": "Observa el juego jugarse automáticamente con la UI oculta, perfecto para demostrar tus niveles",
+      "pt": "Assista o jogo jogar sozinho com a UI oculta, perfeito para demonstrar suas fases"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-reset",
+    "platform": ["all"],
+    "label": {
+      "en": "Reset Button",
+      "es": "Botón de Reinicio",
+      "pt": "Botão de Reinício"
+    },
+    "options": {
+      "input": "check",
+      "values": [true]
+    },
+    "description": {
+      "en": "Press your reset button configured in controls to instantly die",
+      "es": "Presiona tu boton de reinicio configurado en controles para morir al instante",
+      "pt": "Pressione o botão de reinício configurado nos controles para morrer instantaneamente"
+    }
+  },
+  {
+    "type": "option",
+    "id": "opt-instantrespawn",
+    "platform": ["all"],
+    "label": {
+      "en": "Instant Respawn",
+      "es": "Reaparición Instantánea",
+      "pt": "Reaparecimento Instantâneo"
+    },
+    "options": {
+      "input": "check",
+      "values": [false]
+    },
+    "description": {
+      "en": "Enabling this will skip the death animation and immediately restart the song",
+      "es": "Habilitalo para omitir la animacion de muerte y reiniciar la cancion",
+      "pt": "Ativar isso pulará a animação de morte e reiniciará a música imediatamente"
+    }
+  }
+]

@@ -1,0 +1,109 @@
+{
+    "stage": [
+        {
+            "type": "image",
+            "layer": 1,
+            "scale": 1,
+            "namePath": "stage/stageback",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                -600,
+                -200
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 0.9
+        },
+        {
+            "type": "image",
+            "layer": 2,
+            "scale": 1.1,
+            "namePath": "stage/stagefront",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                -650,
+                600
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 0.9
+        },
+        {
+            "type": "image",
+            "layer": 3,
+            "scale": 0.9,
+            "namePath": "stage/stagecurtains",
+            "visible": true,
+            "opacity": 1,
+            "position": [
+                -500,
+                -300
+            ],
+            "flip_x": false,
+            "flip_y": false,
+            "scrollFactor": 1.3
+        },
+        {
+            "spectator": {
+                "type": "character",
+                "layer": 4,
+                "scale": 1,
+                "visible": true,
+                "opacity": 1,
+                "position": [
+                    751.5,
+                    757
+                ],
+                "camera_Offset": [
+                    0,
+                    0
+                ],
+                "flip_x": false,
+                "flip_y": false,
+                "scrollFactor": 1
+            }
+        },
+        {
+            "opponents": {
+                "type": "character",
+                "layer": 5,
+                "scale": 1,
+                "visible": true,
+                "opacity": 1,
+                "position": [
+                    335,
+                    855
+                ],
+                "camera_Offset": [
+                    150,
+                    -100
+                ],
+                "flip_x": false,
+                "flip_y": false,
+                "scrollFactor": 1
+            }
+        },
+        {
+            "players": {
+                "type": "character",
+                "layer": 6,
+                "scale": 1,
+                "visible": true,
+                "opacity": 1,
+                "position": [
+                    989.5,
+                    855
+                ],
+                "camera_Offset": [
+                    -100,
+                    -100
+                ],
+                "flip_x": false,
+                "flip_y": false,
+                "scrollFactor": 1
+            }
+        }
+    ]
+}
